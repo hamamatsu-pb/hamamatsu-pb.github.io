@@ -67,6 +67,7 @@ div#place h2 {
 	background: url(/common/img/sorekara.jpg) no-repeat bottom center;
 	background-size: cover;
 	margin: 0;
+	text-shadow: 1px 1px #fff;
 }
 footer {
     text-align: center;
