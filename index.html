@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<script src="http://www.google.com/jsapi/"></script>
+	<script>
+
+
+//マップの初期設定
+function initialize() {
+
+//マップの中心座標
+  var myLatLng = new google.maps.LatLng(35.47381, 139.59031);
+
+//マップの設定オプション
+  var myOptions = {
+    zoom: 10,                                 //ズームレベル
+    center: myLatLng,                         //中心座標
+    mapTypeId: google.maps.MapTypeId.ROADMAP,  //マップタイプ
+    mapTypeControlOptions: {
+       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'simple']
+    }
+  };
+
+  map = new google.maps.Map(document.getElementById("map"), myOptions);
+
+  var style = [
+  {
+    featureType: "all",
+    elementType: "all",
+    stylers: [
+      { visibility: "simplified" },
+      { hue: "#00ccff" },
+      { saturation: 56 },
+      { lightness: 8 },
+      { gamma: 0.69 }
+    ]
+  }
+];
+var styledMapOptions = {
+  map: map_canvas,
+  name: "originalstyle"
+}
+var stylemap = new google.maps.StyledMapType(stylez,styledMapOptions);
+map_canvas.mapTypes.set("originalstyle", stylemap);
+map_canvas.setMapTypeId("originalstyle");
+
+google.load("maps", "3.x", {"other_params":"sensor=false"});
+</script>
+	<title>Hamamatsu Photo club baccus</title>
+</head>
+<body>
+<div id="main">
+	<h1>Hamamatsu Photo Club Baccus</h1>
+	<h2>Photo Exhibition</h2>
+	<h3>2016.07.15-07.18<br>at ギャラリーそれから</h3>
+</div>
+<header>
+<nav>
+<ul>
+	<li><a href="#top"><p>TOP</p></a></li>
+	<li><a href="#about"><p>ABOUT</p></a></li>
+	<li><a href="#place"><p>PLACE</p></a></li>
+	<li><a href="#"></a></li>
+</ul>
+</nav>
+</header>
+<div id="about">
+	<h2>ABOUT</h2>
+	<h3>浜松で写真展を、海の日に海の写真を</h3>
+	<p>浜松近郊の写真カメラ愛好家による写真展を開催いたします。今回は海の日の開催にちなんで、各人、海をテーマにした一枚を展示いたします。皆さまのご来場心よりお待ちしております。</p>
+</div>
+<div id="place">
+	<h2>PLACE</h2>
+	<div id="map"></div>
+
+</div>
+<footer>
+	<dl>
+		<dt>日時</dt>
+		<dd>2016年7月15日（金）～7月18日(祝)</dd>
+	</dl>
+	<dl>
+		<dt>時間</dt>
+		<dd>10:00～18:00(7月15日のみ13:00～18:00)</dd>
+	</dl>
+	<dl>
+		<dt>場所</dt>
+		<dd>ギャラリーそれから<br>浜松市中区船越町6-16(六間通り しまだ皮フ科 北側)※駐車場も複数台停められます。</dd>
+	</dl>
+	<dl>
+		<dt>ご連絡</dt>
+		<dd></dd>
+	</dl>
+</footer>
+</body>
+</html>
