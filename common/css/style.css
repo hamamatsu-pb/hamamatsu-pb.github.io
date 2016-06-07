@@ -35,6 +35,9 @@ div#about {
     background-attachment: fixed;
     color: #fff;
     background-size: cover;
+    text-shadow: 2px 1px #5b5b5b;
+    	font-family: 'Poiret One', cursive;
+
 }
 
 div h2 {
@@ -52,14 +55,18 @@ div p {
 }
 
 div#place {
+		font-family: 'Poiret One', cursive;
+
     padding: 0;
     
     background-attachment: fixed;
     background-size: cover;
 }
 div#place h2 {
-	padding:100px 0 200px ;
-	background: url(/common/img/sorekara.jpg) no-repeat top center;
+	padding:100px 0 200px;
+	background: url(/common/img/sorekara.jpg) no-repeat bottom center;
+	background-size: cover;
+	margin: 0;
 }
 footer {
     text-align: center;
