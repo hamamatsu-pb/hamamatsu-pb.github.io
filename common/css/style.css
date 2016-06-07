@@ -1,7 +1,7 @@
 #main {
-	background:url(/common/img/main.jpg) no-repeat;
+	background: url(/common/img/main.jpg) no-repeat top  center;
 	background-attachment: fixed;
-	padding: 69% 0 0 0;
+	padding: 68% 0 0 0;
 	background-size: contain;
 }
 
@@ -22,12 +22,14 @@ header nav ul li a{
 
 div#about {
     text-align: center;
-    padding: 5%;
+    padding: 30% 5%;
+    background: #454;
 }
 
 div h2 {
 	font-size:24px;
 	margin:0 0 20px;
+	text-align: center;
 }
 div h3 {
 	font-size:20px;
