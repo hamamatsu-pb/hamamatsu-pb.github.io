@@ -24,12 +24,14 @@ div#about {
     text-align: center;
     padding: 30% 5%;
     background: #454;
+    background-attachment: fixed;
 }
 
 div h2 {
 	font-size:24px;
 	margin:0 0 20px;
 	text-align: center;
+	font-weight: bold;
 }
 div h3 {
 	font-size:20px;
@@ -37,4 +39,10 @@ div h3 {
 }
 div p {
 	line-height:1.5em;
+}
+
+div#place {
+    padding: 5% 5% 30%;
+    background: #f8f8f8;
+    background-attachment: fixed;
 }
