@@ -23,7 +23,7 @@ header nav ul li a{
 div#about {
     text-align: center;
     height: 400px;
-    padding: 300px 0 0 0;
+    padding: 200px 0 100px 0;
     background: url(/common/img/sand.jpg) no-repeat top center rgb(0, 0, 0);
     background-attachment: fixed;
     color: #fff;
@@ -31,14 +31,14 @@ div#about {
 }
 
 div h2 {
-	font-size:24px;
-	margin:0 0 20px;
+	font-size: 72px;
+	margin: 0 0 30px;
 	text-align: center;
 	font-weight: bold;
 }
 div h3 {
-	font-size:20px;
-	margin:0 0 10px;
+	font-size: 36px;
+	margin: 0 0 60px;
 }
 div p {
 	line-height:1.5em;
