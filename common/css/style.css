@@ -45,12 +45,15 @@ div p {
 }
 
 div#place {
-    padding: 30% 5% 5%;
-    background: url(/common/img/sorekara.jpg) no-repeat top center;
+    padding: 0;
+    
     background-attachment: fixed;
     background-size: cover;
 }
-
+div#place h2 {
+	padding:100px 0 200px ;
+	background: url(/common/img/sorekara.jpg) no-repeat top center;
+}
 footer {
     text-align: center;
     line-height: 2em;
