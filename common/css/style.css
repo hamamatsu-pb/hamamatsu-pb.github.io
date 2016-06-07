@@ -1,0 +1,5 @@
+#main {
+	background:url(/common/img/main.jpg) no-repeat;
+	background-attachment: fixed;
+	height: 600px;
+}
