@@ -81,6 +81,9 @@ footer {
     padding:100px;
     background:#333;
     color:#fff;
+    background: url(/common/img/sorekara-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 footer dt{
 	width:30%;
