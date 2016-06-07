@@ -46,3 +46,8 @@ div#place {
     background: #f8f8f8;
     background-attachment: fixed;
 }
+
+footer {
+    text-align: center;
+    line-height: 2em;
+}
