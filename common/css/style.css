@@ -2,7 +2,7 @@
 	background: url(/common/img/main.jpg) no-repeat top  center;
 	background-attachment: fixed;
 	padding: 68% 0 0 0;
-	background-size: contain;
+	background-size: cover;
 }
 
 header nav ul {
