@@ -3,3 +3,27 @@
 	background-attachment: fixed;
 	height: 600px;
 }
+
+header nav ul {
+   text-align: center;
+   background:#333;
+}
+header nav ul li {
+    display:  inline-block;
+    width: 20%;
+}
+header nav ul li a{
+    display:  block;
+    padding:10px;
+    text-decoration:none;
+    color:#fff;
+}
+
+div#about {
+    text-align: center;
+    padding: 5%;
+}
+
+div h2 {
+	font-size:20px;
+}
