@@ -85,12 +85,16 @@ footer {
     background-attachment: fixed;
     background-size: cover;
 }
+footer dl {
+	max-width:800px;
+	margin:0 auto;
+}
 footer dt{
-	width:30%;
+	width:20%;
 	vertical-align:top;
 	display:inline-block;
 }
 footer dd{
-	width:69%;
+	width:79%;
 	display:inline-block;
 }
