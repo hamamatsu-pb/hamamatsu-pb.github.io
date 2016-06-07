@@ -23,7 +23,7 @@ header nav ul li a{
 div#about {
     text-align: center;
     padding: 30% 5%;
-    background: #454;
+    background: url(/common/img/sand.jpg) no-repeat;
     background-attachment: fixed;
 }
 
@@ -43,7 +43,7 @@ div p {
 
 div#place {
     padding: 5% 5% 30%;
-    background: #f8f8f8;
+    background: url(/common/img/sorekara.jpg) no-repeat;
     background-attachment: fixed;
 }
 
