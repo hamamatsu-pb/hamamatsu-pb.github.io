@@ -5,8 +5,13 @@
 	background-size: cover;
 	text-align: center;
 	font-family: 'Poiret One', cursive;
+	color:#fff;
+	text-shadow:3px 3px #666;
+	letter-spacing:0.08em;
 }
-
+#main h1 {
+	font-size:36px;
+}
 header nav ul {
    text-align: center;
    background:#333;
