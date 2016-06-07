@@ -1,7 +1,8 @@
 #main {
 	background:url(/common/img/main.jpg) no-repeat;
 	background-attachment: fixed;
-	height: 600px;
+	padding: 69% 0 0 0;
+	background-size: contain;
 }
 
 header nav ul {
@@ -25,5 +26,13 @@ div#about {
 }
 
 div h2 {
+	font-size:24px;
+	margin:0 0 20px;
+}
+div h3 {
 	font-size:20px;
+	margin:0 0 10px;
+}
+div p {
+	line-height:1.5em;
 }
