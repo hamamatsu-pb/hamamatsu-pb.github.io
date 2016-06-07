@@ -57,6 +57,7 @@ div#gall-3 {
     padding: 50% 0 0;
     background: url(/common/img/sorekara-2.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 div#place {
 		font-family: 'Poiret One', cursive;
