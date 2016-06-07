@@ -70,6 +70,18 @@ div#place h2 {
 	text-shadow: 1px 1px #fff;
 }
 footer {
-    text-align: center;
+    text-align: left;
     line-height: 2em;
+    padding:100px;
+    background:#333;
+    color:#fff;
+}
+footer dt{
+	width:30%;
+	vertical-align:top;
+	display:inline-block;
+}
+footer dd{
+	width:69%;
+	display:inline-block;
 }
