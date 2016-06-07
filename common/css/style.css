@@ -53,7 +53,11 @@ div h3 {
 div p {
 	line-height:1.5em;
 }
-
+div#gall-3 {
+    padding: 50% 0 0;
+    background: url(/common/img/sorekara-s.jpg);
+    background-attachment: fixed;
+}
 div#place {
 		font-family: 'Poiret One', cursive;
 
