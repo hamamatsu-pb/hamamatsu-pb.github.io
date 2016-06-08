@@ -81,7 +81,7 @@ footer {
     padding:100px;
     background:#333;
     color:#fff;
-    background: url(/common/img/sorekara-3.jpg);
+    background: url(/common/img/sorekara-3.jpg) center left;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -97,4 +97,41 @@ footer dt{
 footer dd{
 	width:79%;
 	display:inline-block;
+}
+
+@media screen and (max-width:767px) {
+	#main {
+	background: url(/common/img/main.jpg) no-repeat top left;
+	background-attachment: fixed;
+	padding: 30% 0 36%;
+	background-size: 220% auto;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	color:#fff;
+	text-shadow:3px 3px #666;
+	letter-spacing:0.08em;
+}
+	#main h1 {
+	font-size:24px;
+}
+div h2 {
+	font-size: 42px;
+	margin: 0 0 30px;
+	text-align: center;
+	font-weight: bold;
+}
+div h3 {
+	font-size: 20px;
+	margin: 0 0 60px;
+}
+footer {
+    text-align: left;
+    line-height: 2em;
+    padding:5%;
+    background:#333;
+    color:#fff;
+    background: url(/common/img/sorekara-3.jpg) no-repeat 51% top;
+    background-attachment: fixed;
+    /* background-size: 200% auto; */
+}
 }
