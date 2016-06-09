@@ -105,7 +105,9 @@ footer dd{
 	width:79%;
 	display:inline-block;
 }
-
+.sp{
+	display:none;
+}
 @media screen and (max-width:767px) {
 	#main {
 	background: url(/common/img/main.jpg) no-repeat top left;
@@ -129,7 +131,11 @@ div h2 {
 }
 div h3 {
 	font-size: 20px;
-	margin: 0 0 60px;
+	margin: 0 5% 60px;
+}
+div p {
+	line-height:1.5em;
+	margin:0 5%;
 }
 footer {
     text-align: left;
@@ -141,4 +147,17 @@ footer {
     background-attachment: fixed;
     /* background-size: 200% auto; */
 }
+footer dt{
+	width:100%;
+	vertical-align:top;
+	display:inline-block;
+}
+footer dd{
+	width:100%;
+	display:inline-block;
+}
+.sp {
+	display:block;
+}
+
 }
