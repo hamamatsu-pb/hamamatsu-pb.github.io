@@ -3,6 +3,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background: rgba(19, 124, 179, 0.77);
 }
 
 #main {
@@ -21,8 +22,9 @@ header {
 }
 header nav ul {
    text-align: justify;
-   background: rgba(19, 124, 179, 0.77);
    height: 46px;
+   max-width: 950px;
+   margin: 0 auto;
 }
 header nav ul:after {
 	display:inline-block;
