@@ -86,7 +86,7 @@ div#place {
 }
 div#place-wrap {
 	padding: 260px 0 180px;
-	background: url(/common/img/sorekara.jpg) no-repeat bottom center;
+	background: url(/common/img/sorekara.jpg) no-repeat 60% bottom;
 	background-size: cover;
 	margin: 0;
 	text-shadow: 1px 1px #fff;
