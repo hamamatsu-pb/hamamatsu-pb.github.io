@@ -85,7 +85,7 @@ div#place {
     background-size: cover;
 }
 div#place-wrap {
-	padding: 60px 0 80px;
+	padding: 260px 0 180px;
 	background: url(/common/img/sorekara.jpg) no-repeat bottom center;
 	background-size: cover;
 	margin: 0;
@@ -95,7 +95,7 @@ div#place-wrap {
 footer {
     text-align: left;
     line-height: 2em;
-    padding:100px;
+    padding: 200px 100px 200px;
     background:#333;
     color:#fff;
     background: url(/common/img/sorekara-3.jpg) center left;
