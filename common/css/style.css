@@ -89,9 +89,10 @@ div#member {
 div#member ul li{
 	display:inline-block;
 	width:20%;
+	margin: 0 0 20px;
 	text-align:center;
 	line-height:1.5em;
-	font-size:20px;
+	font-size: 26px;
 }
 div#member sub {
 	display:block;
