@@ -25,6 +25,7 @@ header nav ul {
    height: 46px;
    max-width: 950px;
    margin: 0 auto;
+   letter-spacing: -0.8em;
 }
 header nav ul:after {
 	display:inline-block;
@@ -34,12 +35,13 @@ header nav ul:after {
 }
 header nav ul li {
     display:  inline-block;
-    /* width: 20%; */
+    width: 20%;
+    letter-spacing: 0em;
 }
 header nav ul li a{
     display:  block;
     padding: 15px;
-    width: 20%;
+    width: 100%;
     text-decoration:none;
     color:#fff;
 }
@@ -154,6 +156,24 @@ footer dd{
 	#main h1 {
 	font-size:24px;
 }
+header nav ul {
+   text-align: justify;
+   height: 46px;
+   max-width: 950px;
+   width:90%;
+   margin: 0 auto;
+   letter-spacing: -0.8em;
+}
+header nav ul li {
+    display:  inline-block;
+    /* width: 25%; */
+    font-size:14px;
+    text-align: left;
+}
+header nav ul li a{
+    display:  block;
+    padding: 15px 0;
+}
 div h2 {
 	font-size: 42px;
 	margin: 0 0 30px;
@@ -174,8 +194,7 @@ footer {
     padding:5%;
     background:#333;
     color:#fff;
-    background: url(/common/img/sorekara-3.jpg) no-repeat 51%;
-    background-attachment: fixed;
+    background: url(/common/img/sorekara-3.jpg) no-repeat top;
     /* background-size: 200% auto; */
 }
 footer dt{
