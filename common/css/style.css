@@ -56,7 +56,28 @@ div#about {
     	font-family: 'Poiret One', cursive;
 
 }
+div#member {
+    text-align: center;
+    height: 400px;
+    padding: 200px 0 100px 0;
+    background: url(/common/img/member.jpg) no-repeat top center rgb(0, 0, 0);
+    background-attachment: fixed;
+    color: #fff;
+    background-size: cover;
+    text-shadow: 2px 1px #5b5b5b;
+    	font-family: 'Poiret One', cursive;
 
+}
+div#member ul li{
+	display:inline-block;
+	width:20%;
+	text-align:center;
+	line-height:1.5em;
+	font-size:20px;
+}
+div#member sub {
+	display:block;
+}
 div h2 {
 	font-size: 72px;
 	margin: 0 0 30px;
